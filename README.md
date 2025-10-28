@@ -60,14 +60,15 @@ pip install google-genai==1.7.0 pandas ipywidgets kagglehub
 
   <h2>🚀 Run Instructions</h2>
   <pre><code>
-# Step 1: Download Kaggle dataset
+    
+# Step 1: Download Kaggle dataset 
 import kagglehub
 kagglehub.dataset_download('taniadh/skin-care')
 
 # Step 2: Install required packages
 !pip install -qU "google-genai==1.7.0"
 
-# Step 3: Run script
+# Step 3: Run script 
 python simple_skin_care_recommendation.py
   </code></pre>
 
